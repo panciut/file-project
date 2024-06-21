@@ -1,0 +1,150 @@
+# Node modules
+node_modules/
+*/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Frontend build output
+frontend/build/
+frontend/dist/
+
+# Backend build output
+backend/dist/
+backend/build/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Error reports
+npm-error.log
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# MacOS
+.DS_Store
+
+# IDE/Editor directories and files
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.temp
+
+# Ignore all json files in the projects directory except those in backend/src
+projects/*.json
+!backend/src/*.json
+
+# React specific files
+frontend/.next/
+frontend/out/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.eslintcache
+frontend/.turbo/
+frontend/public/assets/
+
+# Testing related files
+frontend/jest/
+frontend/coverage/
+backend/coverage/
+*.spec.js
+*.test.js
+*.spec.ts
+*.test.ts
+
+# Bower dependency directory
+bower_components/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Flask instance folder
+instance/
+
+# Flask's script folder
+scripts/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# IntelliJ
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Linux
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+*.cover
+*.coverage
+.coverage.*
+.cache
+.nyc_output
+.npmrc
+.pnpm-debug.log
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Azure Pipelines
+.azure-pipelines/
+
+# AWS SAM
+.aws-sam/
